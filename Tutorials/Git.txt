@@ -1,0 +1,44 @@
+Git - distributed version control system / software
+Git Bash / Terminal 
+
+// Config User
+git config --global user.name
+git config --global user.email
+
+// initialization
+git init
+
+// Status
+git status
+
+// Stages of file status 
+Untracked - no reason for commit
+Unmodified - commited
+Modified - 
+Staged - 
+
+----Untracked-->--Unmodified-->--Modified-->--Staged----
+
+// Add Files in stagging area 
+git add file.txt 
+git add .
+
+// Commit
+git commit -m "message of commit"
+git commit -a -m "stagging area fixed"
+
+// Log to check commit
+git log
+
+// Checkout
+git checkout filename.txt (change current data with last commited files)
+git checkout -f (it will match all your files with last commit & change all files data)
+
+// diff - compare working tree to stagging area
+
+// compare stagging area to last commit
+
+
+// Bash Commands
+ls    ( list items )
+touch filename.txt (create file)
