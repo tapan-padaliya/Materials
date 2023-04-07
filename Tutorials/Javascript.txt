@@ -91,18 +91,7 @@ Get and set cookies, ask questions to the visitor, show messages.
 Remember the data on the client-side (“local storage”).: IndexedDB
 
 
-hotkeys : 
----------
--For Single Line Comment Press Bellow Buttons : 
-	Ctrl + /
--For Multi Line Comment Press Bellow Buttons : 
-	Ctrl + Shift + /
--For Next Line in Developer Console :
-	Shift + Enter
--Open Developer Tools : 
-	Ctrl + Shift + C
--Open Current Page Console : 
-	F12
+
 
 How to start writing ?
 ----------------------
