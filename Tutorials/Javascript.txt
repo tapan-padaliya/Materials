@@ -251,7 +251,7 @@ document.writeln():
 writeln() adds a newline character after each statement. write() does not.
 
 -----------------------------------------------------------
-Try Catch finally
+Error Handling in JS
 ------------------
 Use : print and warn for errors, used insted of some conditions and do loops. 
 
@@ -297,9 +297,24 @@ getSmallArrayElem(arr);
 Functions in JS : 
 -----------------
 Why ? => Sepraate code insted of repeating code.
+What ? => Block of code to perform perticular Task.
 
+How to Create Function ? 
+
+function 
 
 -----------------------------------------------------------
+Destructuring Concept : 
+-----------------------
+- The destructuring assignment syntax is a JavaScript expression that makes it possible to unpack values 
+	from arrays, or properties from objects, into distinct variables.
+
+	let data = {name : "anil", age : 29, skill: "js"};
+	let info = {city: "abd", mail: "tapan@gmail.com"};
+	dataa = {...data,...info},
+    dataaa = {data,info}
+    console.warn(dataaa)// without destructure
+	console.log(dataa)// with destructure
 -----------------------------------------------------------
 
 
