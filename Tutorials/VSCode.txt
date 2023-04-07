@@ -13,3 +13,6 @@ hotkeys :
 	F12
 -Search File in current folder
 	Ctrl + P
+
+- Multiple Cursors to write in multiple lines
+	Alt + Click 
