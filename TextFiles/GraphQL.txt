@@ -1,2 +1,19 @@
 GraphQL is a Structure Query Language
 Supports any DataBase
+
+Gives Data What You Want 
+
+-------------------------------------
+
+Steps that GQL Use: 
+1.Describe Your Data
+2.Ask For What You Want
+3.Get Predictable Results
+
+-------------------------------------
+
+Backend : Node Express Nodemon Graphql express-graphql apollo-server mongoose
+
+Single End Point : 
+    graphiql
+
