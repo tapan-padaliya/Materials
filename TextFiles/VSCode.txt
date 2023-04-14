@@ -1,0 +1,18 @@
+hotkeys : 
+---------
+
+-For Single Line Comment Press Bellow Buttons : 
+	Ctrl + /
+-For Multi Line Comment Press Bellow Buttons : 
+	Ctrl + Shift + /
+-For Next Line in Developer Console :
+	Shift + Enter
+-Open Developer Tools : 
+	Ctrl + Shift + C
+-Open Current Page Console : 
+	F12
+-Search File in current folder
+	Ctrl + P
+
+- Multiple Cursors to write in multiple lines
+	Alt + Click 

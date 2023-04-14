@@ -1,3 +1,0 @@
-#Heading
-##Heading
-###Heading
