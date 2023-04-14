@@ -1,0 +1,2 @@
+GraphQL is a Structure Query Language
+Supports any DataBase
