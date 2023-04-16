@@ -1,0 +1,29 @@
+Browser DevTools
+Debugging 
+
+if you are developing some Web applications and you get a error or a bug , 
+and you don't know what is that then the developer option is used.
+
+To open Dev tool 
+CTRL + Shift + C
+or
+rightclick on web page and inspect
+
+
+to check code of perticular element use left corner button that is arrow and
+click to element that redirects you to the perticular code
+
+Element:
+Element section describes the frontend code
+
+Console:
+Scripting log & Workspace to fire any script
+
+Sources:
+it will show directory and files
+
+Network:
+Network Analyzer , packets time counter
+
+Application :
+Databases used information
