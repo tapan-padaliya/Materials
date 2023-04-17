@@ -1,0 +1,128 @@
+
+
+
+
+Reasons To Use VueJS : 
+----------------------
+-Fast Rendering
+-Improved TypeScript
+-use Composition API
+-Workflow Strategy
+
+Advantages of VueJS : 
+---------------------
+
+
+
+LifeCycle Hooks in VueJS : 
+---------------------------
+
+created():
+----------
+-created hook is called when a Vue component is created, but before it is inserted into the DOM.
+-used to perform component setup, such as initializing data, setting up watchers or computed properties, 
+  making API calls, or performing other setup tasks that need to be executed when the component is created.
+-it is not called when the component is updated or re-rendered
+
+mounted():
+----------
+-the mounted lifecycle hook is a special function that gets called automatically after a Vue component has been inserted into the DOM.
+-you can use the mounted hook to fetch data from a server, initialize third-party libraries, set up event listeners, 
+ or perform other tasks that need to be executed after the component has been rendered in the DOM
+-It's important to note that the mounted hook is only called once, when the component is initially inserted into the DOM. 
+ If the component is later updated or re-rendered, the mounted hook will not be called again.
+
+updated():
+----------
+-the updated lifecycle hook is a special function that gets called automatically after a Vue component 
+    has been re-rendered due to changes in its data or props. 
+-these hook is functions that are automatically executed at different points during the lifecycle of a Vue component.
+
+
+Modes : 
+--------
+3 types of Mode Available in Vue-cli-service
+-development
+-test
+-production
+
+
+
+
+How Props works in VueJS : 
+--------------------------
+into the child component, define props and use to render that prop 
+props: {
+    propName: String // Define prop and its type
+}
+Inside the parent component >
+import child component (import ChildComponent from './ChildComponent.vue';)
+define component (components: {ChildComponent})
+return the prop value data() {return {propValue: 'Hello from parent component!' // Data to be passed as props }; }
+and you can use to show the value you have return in child component : 
+<!-- Use the child component and pass data as props -->
+<child-component :propName="propValue"></child-component>
+
+
+Slots in VueJS : 
+----------------
+
+#Simple Method for Slot
+Write piece of code in a saprate file and in between write <slot /> to make that component a slot 
+import in another file where you want to use that slot with it's file name (import BtnSlot from './BtnSlot.vue')
+define it in component (components: {BtnSlot})
+and write slot in template (<BtnSlot> ButtonName Here </BtnSlot>)
+
+#Named Slot
+Create File with name BaseSlot.vue and write multiple slots with attributes called name ( <header><slot name="header"></slot></header>)
+import in another file where you want to use that slot with it's file name (import BaseSlot from './BaseSlot.vue')
+define it in component (components: {BaseSlot})
+now to use named slot , use that component name as tag in template tag & inside that use another template tag with attribute 
+starts with # and named slot name which you have given as a property of attribute in BaseSlot.vue
+<BaseLayout>
+    <template #header>
+      <h1>Here might be a page title</h1>
+    </template>
+</BaseLayout>
+
+#Dynamic Slot
+
+#Scoped Slots
+
+
+Vue Best Practices : 
+--------------------
+how to mame it work with efficency and reusablity
+    make components and use methods ad props
+    use insted of using core functinalities to avoide long code.
+
+    let's take an example to show on that in vepaar
+        VueForm used with the methods like save del get .....
+        insted of using long functions for buttons and calls
+
+Components are Registered globally in src/global.js
+computed properties can use as a value of ..
+
+Make an seprative things goes up
+    code splitting makes works 
+
+Use Slots For Small Idel Designs
+Use Componennts For Small Components 
+
+understand all the property with it's attributes and parent componentns and slots
+use the componnent in script tag is works as a good habit.
+
+
+$functions in VueJS : 
+----------------------
+whhile using dollar function at the way of aquring some goal , we will ge some function data and that we gonna use with the
+actually it's a parameter that called by the specific sign like dollor
+
+like there is a $event
+$option is used for non reactive data in a vue component. Vue put hidden watcher on data members that's why we use $options .
+
+
+Why ssr needed ?
+----------------
+ssr means Server Side Render is very important and needed at the forntend level.
+the specific piece of code constraints the data that must include the berave of the system.
