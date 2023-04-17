@@ -1,6 +1,20 @@
 
+NPM Vue Cli :
+    npm install -g @vue/cli
+    npm update -g @vue/cli
+
+Create Vue Project :
+    vue create frontend
+    [there are few options for version selection]
+
+Install Using Building Tool : 
+    Vite : npm create vite@latest
+    [Select vue from the selection]
 
 
+Directory Structure : 
+---------------------
+{Vue JS Directory names and it's explaination}
 
 Reasons To Use VueJS : 
 ----------------------
@@ -11,8 +25,12 @@ Reasons To Use VueJS :
 
 Advantages of VueJS : 
 ---------------------
+Reusable Functionalities.
+SSR and SSG Supportive.
+Single Page Application (SPA)
 
-
+emit => Children to Parent Data Passing
+props => Parent to Child Data Passing
 
 LifeCycle Hooks in VueJS : 
 ---------------------------
@@ -38,6 +56,16 @@ updated():
     has been re-rendered due to changes in its data or props. 
 -these hook is functions that are automatically executed at different points during the lifecycle of a Vue component.
 
+computed():
+-----------
+- a computed property is a type of property that is derived from other properties or data in the Vue instance or component, 
+    and its value is automatically calculated and updated whenever the dependent properties change.
+-Computed properties are reactive, which means that they automatically update when their
+    dependent data changes, without needing to be explicitly called or watched.
+-important thing to note is that computed properties are cached, meaning that their values are only 
+    recalculated when their dependent data properties change
+
+
 
 Modes : 
 --------
@@ -45,8 +73,6 @@ Modes :
 -development
 -test
 -production
-
-
 
 
 How Props works in VueJS : 

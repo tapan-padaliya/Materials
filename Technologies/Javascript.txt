@@ -303,6 +303,27 @@ How to Create Function ?
 
 function 
 
+
+-----------------------------------------------------------
+Parameters in JS : 
+------------------
+Basic Structure of Function With Parameters : 
+	function functionName(parameter1, parameter2, parameter3) {
+ 		// code to be executed
+	}
+
+-Function parameters are the names listed in the function definition.
+-Function arguments are the real values passed to (and received by) the function.
+
+
+
+
+Rules for parameters : 
+> JavaScript function definitions do not specify data types for parameters.
+> JavaScript functions do not perform type checking on the passed arguments.
+> JavaScript functions do not check the number of arguments received.
+
+
 -----------------------------------------------------------
 Destructuring Concept : 
 -----------------------
