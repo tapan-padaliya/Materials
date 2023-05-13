@@ -152,3 +152,25 @@ Why ssr needed ?
 ----------------
 ssr means Server Side Render is very important and needed at the forntend level.
 the specific piece of code constraints the data that must include the berave of the system.
+
+
+
+State Management : 
+------------------
+what is state : Values of certain properties
+
+What ? : state management refers to the management of data that is shared across multiple components in your application. 
+Why ? :  It becomes especially important when your application grows in complexity and you need a centralized approach to manage and synchronize data between different components.
+
+Vuex : 
+------
+VueX helps you manage state in a predictable manner and provides a centralized store where your application's data is stored.
+
+Here are the key concepts and components of VueX:
+
+State: The state represents the single source of truth for your application's data. It is stored in a central store and can be accessed by any component in your application.
+Getters: Getters allow you to compute derived state based on the store's state. They are similar to computed properties in Vue components but are available at the store level. Getters are useful for filtering, sorting, or transforming the data stored in the state.
+Mutations: Mutations are synchronous functions that modify the state. They are the only way to modify the state in a VueX store and should be used to ensure that changes to the state are tracked and can be debugged. Mutations must be committed using a commit function.
+Actions: Actions are asynchronous functions that can perform logic, make API requests, and commit mutations. Actions are usually used when you need to perform asynchronous operations before committing mutations to the state. Actions are dispatched using the dispatch function.
+Modules: Modules allow you to split your store into smaller, reusable modules, each with its own state, getters, mutations, and actions. Modules can be nested, allowing you to create a hierarchical structure for your store.
+
