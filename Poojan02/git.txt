@@ -1,0 +1,25 @@
+git
+
+working on project the steps are follows
+
+create a clone
+create new branch 
+update your code in new branch
+git status
+git add
+git status
+git commit
+after end of the day first of all git pull
+and check the new data your project to check and fix it 
+git status
+git add
+git status
+git coomit
+git push in your new branch
+
+starting next day project to first of all git pull reqest first and after that continue your code
+
+=> your all task completed to git pull and main branch and fix it your code after that you have genrate pr to mearge your branch to main branch
+
+
+=> you have not genrate pull request and add your code but already other person have push same code to chanshis for creating a conflict 
