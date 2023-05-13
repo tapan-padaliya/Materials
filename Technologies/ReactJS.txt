@@ -1,11 +1,12 @@
 small intro
+
 -> React is javaScript library
 -> use build single page application
 -> allow us to reusable UI components.
 -> Facebook Software Engineer, Jordan Walke, created it.
 -> React.JS was first used in 2011 for Facebook's Newsfeed feature.
 
-Create React App
+> Create React App
 
 => how to setup react environment in comuter?
 
@@ -21,7 +22,7 @@ Create React App
 
 =====================================================================================================================
 
- What is React? 
+What is React JS? 
 
 React is frontend javaScript framework is JavaScript library created by facebook
 
