@@ -64,4 +64,80 @@ document.write(mycar.brand);
 
 Method in Classes
 
+class Car {
+  constructor(name) {
+    this.brand = name;
+  }
 
+  present() {
+    return 'I have a ' + this.brand;
+  }
+}
+
+const mycar = new Car("Ford");
+document.write(mycar.present());
+</script>
+
+-> you can see in the example above, you call the method by referring to the object's method name followed by parentheses (parameters would go inside the parentheses).
+
+Class Inheritance
+
+-> use extends keyword to create class Inheritance
+-> a class created with a class inheritance inherits all the methods from another class
+
+example 
+class Car {
+  constructor(name) {
+    this.brand = name;
+  }
+
+  present() {
+    return 'I have a ' + this.brand;
+  }
+}
+
+class Model extends Car {
+  constructor(name, mod) {
+    super(name);
+    this.model = mod;
+  }  
+  show() {
+    return this.present() + ', it is a ' + this.model
+  }
+}
+
+const mycar = new Model("Ford", "Mustang");
+document.write(mycar.show());
+
+=> super() method to represent parent class
+=> call super() method in constructor method we call th parent's constructor method add get access to the parent's constructor method and get acess parent's method
+
+==================================================================
+
+ES6 Arrow Function 
+
+aroe function is write shorter function syntax
+
+example for function
+hello = function(){
+    return"Hello"
+}
+
+example for arrow function
+
+hello =() =>{
+    return "Hello";
+}
+
+Arrow Functions Return Value by Default:
+hello = () => "Hello World!";
+
+you have parameters, you pass then inside the parentheses
+hello = (val) => "Hello " + val;
+
+document.getElementById("demo").innerHTML = hello("World");
+
+What About this?
+
+The handling of this is also different in arrow functions compared to regular functions.
+with arrow function , the this keyword always represent the object that defined the arrow function
