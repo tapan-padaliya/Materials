@@ -1,0 +1,52 @@
+small intro
+-> React is javaScript library
+-> use build single page application
+-> allow us to reusable UI components.
+-> Facebook Software Engineer, Jordan Walke, created it.
+-> React.JS was first used in 2011 for Facebook's Newsfeed feature.
+
+Create React App
+
+=> how to setup react environment in comuter?
+
+-> use create-react-app
+-> create-react-app tool is support to create react application .
+-> command - npx create-react-app react application name
+=> npx create-react-app react-app1
+
+ Run the react application
+
+=> cd react-app1
+=> npm start
+
+=====================================================================================================================
+
+ What is React? 
+
+React is frontend javaScript framework is JavaScript library created by facebook
+
+tool building UI components
+
+
+ How does React Work? 
+
+react is vertual dom browser memory
+
+reaact create virtual DOM in memory, it does all necessary manipulating, before making the changes in the browser DOM.
+
+what is ES6
+
+ES6 = ECMAScript6
+
+ECMAScript created standarlized JavaScript.
+
+
+=====================================================================================================================
+React ES6 Classes
+
+
+class is one type of function 
+we use keyword class and properties are assigned inside a constructor() method
+
+class name first letter upper case
+
