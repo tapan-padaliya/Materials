@@ -1,0 +1,71 @@
+Nuxt
+============================================================
+
+Framework that offers server side rendering for vue apps 
+(similar to next js for react)
+
+Main Advantages : 
+-----------------
+Universal Apps / Server Side Rendering
+Search Engine Optimization
+Control of head, title, meta etc.
+Simple Page Routing
+
+Other Features of NUXT:
+-----------------------
+Build with vue-router,vuex,vue-meta and more
+choice of universal of SPA
+choice to include Bootstrap or Other UI framework
+choice to include Express or other backend framework
+automatic code-splitting, babel transpile, sass integration
+easy build "nuxt generate" creates dist folder for diployment
+
+---------------------------------------
+Create Nuxt App : 
+
+	npx create-nuxt-app projectname
+
+Folder Structure :
+------------------
+Pages directory: The pages directory is where you create your application's pages. Each file in this directory corresponds to a route in your application. For example, a file named about.vue in the pages directory will create a route for /about. You can nest pages in subdirectories to create nested routes.
+
+Layouts directory: The layouts directory is where you define the layout for your application. The layout is a template that wraps around each page in your application. You can define multiple layouts and use them for different pages.
+
+Components directory: The components directory is where you store your reusable components. You can use these components in your pages and layouts.
+
+Static directory: The static directory is where you store your static assets, such as images and fonts.
+
+Store directory: The store directory is where you define your Vuex store for state management in your application.
+
+
+Head Property : 
+---------------
+-you can use head property in export default in your component for SEO
+
+export default {
+	head(){
+		return{
+			title:"Title of page",
+			meta:[
+				{
+					hid:"description",
+					mane:"description",
+					content:"content here"
+				}
+			]
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

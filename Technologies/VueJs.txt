@@ -174,3 +174,30 @@ Mutations: Mutations are synchronous functions that modify the state. They are t
 Actions: Actions are asynchronous functions that can perform logic, make API requests, and commit mutations. Actions are usually used when you need to perform asynchronous operations before committing mutations to the state. Actions are dispatched using the dispatch function.
 Modules: Modules allow you to split your store into smaller, reusable modules, each with its own state, getters, mutations, and actions. Modules can be nested, allowing you to create a hierarchical structure for your store.
 
+Composition API : Vue 3 : 
+--------------------------
+
+In Vue 3, the following lifecycle hooks have been removed:
+
+beforeCreate: This hook is no longer available in Vue 3 because the Composition API replaces the options API 
+	used in Vue 2. The setup() function in the Composition API replaces this hook.
+
+created: This hook is replaced by the setup() function in the Composition API.
+
+beforeMount: This hook is still available in Vue 3, but its functionality has been merged into the 
+	onBeforeMount function.
+
+mounted: This hook is still available in Vue 3, but its functionality has been merged into the onMounted function.
+
+beforeUpdate: This hook is still available in Vue 3, but its functionality has been merged into the onBeforeUpdate 
+	function.
+
+updated: This hook is still available in Vue 3, but its functionality has been merged into the onUpdated function.
+
+beforeDestroy: This hook is still available in Vue 3, but its functionality has been merged into the onBeforeUnmount 
+	function.
+
+destroyed: This hook is still available in Vue 3, but its functionality has been merged into the onUnmounted function.
+
+In general, the Composition API replaces the options API used in Vue 2, so many of the lifecycle hooks from Vue 2 have
+	 been replaced by functions in the Composition API.
