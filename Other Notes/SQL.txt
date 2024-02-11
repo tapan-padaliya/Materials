@@ -1,0 +1,105 @@
+---------------------------------------------------------------------------------
+SQL vs MySQL
+-----------
+
+-SQL is Structure Query Language that use to manage RDBMS
+-MySQL is a RDBMS ( Relational Database Management System )
+
+-SQL Uses Query to Manage Data
+-MySQL Used to handle, store, modify and delete data and store data in an organized way. 
+
+-SQL does not support any connector.
+-MySQL has inbuiltconnector - MySQL Workbench that facilitates creating, designing, and building databases.
+
+-SQL has Standerd Formate Without updates
+-MySQL gets frequent updates.
+
+-SQL Supports Single Storage Engine.
+-MySQL Supports multiple storage engines along with plug-in storage, making it more flexible.
+
+-SQL not manipulate data during execution.
+-MySQL is less secure then SQL & uses third party processors to manipulate data during execution.
+
+
+Primary key - A primary key is used to ensure data in the specific column is unique.	
+Foreign Key - A foreign key is a column or group of columns in a relational database table that provides a link between data in two tables.
+
+Group By : it will create group by using fields and fetch data
+Order By : assending order , desending order - A to Z , Z to A
+
+Agreegate Function : 
+		1) Count()
+		2) Sum()
+		3) Avg()
+		4) Min()
+		5) Max()
+
+SQL datatypes : 
+	Exact numerics. Unicode character strings.
+Approximate numerics. Binary strings.
+Date and time. Other data types.
+Character strings.
+bigint. numeric.
+bit. smallint.
+decimal. smallmoney.
+int. tinyint.
+
+--------------------------------------------------------------------------------------------
+SQL Basic Queries
+-----------------
+
+-> To Create Database
+CREATE DATABASE databasename;
+-------------------------------------------------------------------
+-> To Create Table 
+CREATE TABLE table_name (
+    column1 datatype,PRIMARY KEY
+    column2 datatype,
+ );
+-------------------------------------------------------------------
+-> To Insert Values
+INSERT INTO table_name (column1, column2, column3, ...)
+VALUES (value1, value2, value3, ...);
+-------------------------------------------------------------------
+-> Update Data
+UPDATE table_nameSET column1 = value1 nWHERE condition;
+-------------------------------------------------------------------
+-> Delete Data
+DELETE FROM table_name WHERE condition;
+-------------------------------------------------------------------
+-> Drop Table
+DROP TABLE Table-name
+-------------------------------------------------------------------
+-> Show Data
+SELECT column1, column2, ...
+FROM table_name;
+SELECT * FROM table_name;
+-------------------------------------------------------------------
+->Inner Join ( A - Mid Common Data of A&B - B)
+SELECT column_name(s)
+FROM table1
+INNER JOIN table2 ON table1.column_name = table2.column_name;
+-------------------------------------------------------------------
+->Left outer join ( A + A+Mid - B)
+-LEFT outer JOIN keyword returns all records from the left table (table1), and the matching records
+SELECT column_name(s)
+FROM table1
+LEFT outer JOIN table2 ON table1.column_name = table2.column_name;
+-------------------------------------------------------------------
+->Right outer join ( A - B+Mid + B)
+-RIGHT outer JOIN keyword returns all records from the right table (table2), and the matching records from the left table
+SELECT column_name(s)
+FROM table1
+RIGHT outer JOIN table2ON table1.column_name = table2.column_name
+-------------------------------------------------------------------
+->Full join ( A + Mid + B)
+-it's gett all data
+SELECT column_name(s)
+FROM table1
+FULL  JOIN table2 ON table1.column_name = table2.column_name
+WHERE condition;
+-------------------------------------------------------------------
+->Cross Join (for not matched data but still need join)
+SELECT column_name(s)
+FROM table1
+CROSS JOIN table2;

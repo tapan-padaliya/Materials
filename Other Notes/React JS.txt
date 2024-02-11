@@ -1,0 +1,149 @@
+===================================================================
+React.JS  Library
+===================================================================
+NPM - Utilities , Packages, Dependencies, controllers
+
+
+- Javascript Library Developed by Facebook.
+- React Used for building interactive user interfaces and web applications quickly and efficiently
+	 with significantly less code then you would with vanilla JS.
+- Single Page Application
+- Also works like Framework to build SPA
+
+- We use JSX - Javascript Syntax Extension ( HTML , Javascript )
+- className the attribute come from jsx works to  insert dynamic javascript 
+
+- in react you can break your web page in differnet components
+	- Header , footer, slider, menu , nav bar, Form
+-React Hooks , Promps , Router, Different Utilities
+
+-Node.js & NPM required to use React (NPM, NPX, NODE)
+
+-NPX is counter part of NPM , NPM used to install and manage Packages but NPX use to run a one time.
+-NPX is used to execute JavaScript packages downloaded this way
+-Create React App Utility by NPX. (create-react-app)
+
+-npm start - start server
+-npm run build - Bundles the app to work with producion mode
+
+-Nodemodules are the packages and utilities that we have installed with npm-npx.
+-Package.json constraints the packages, scripts, dependencies, version and project details.
+-Package-lock.json constraints the version lock that the build time versions used 
+
+
+
+-Default port 3000 but it also runs on the server that deploy on the network also
+	
+-Index.html - create base output divs and call the js only, no development works on public folder 
+-<noscript> Shows the message while browser not supports javascript </noscript>
+
+-Index.js -  it imports all components and works for render.
+- app.js is a component that exports 
+
+-react variable use to define with return html in {variableData}
+		var dataa=this is message
+		returen(){
+		    <>{dataa}</>
+		}
+
+-return must be wrap in any tag it can works empty tag in JSX
+	<> output data </>
+
+
+Major Features of React : 
+	Virtual DOM - first change in Virtual DOM and then sync with real DOM. known as reconsyling
+			takes less data, change the components that need to change
+	JSX - ^
+	
+	Functional component : easy , code userfriendly
+	class component : 
+
+	state object : give current value
+	props data gives data parent to children.
+	use callback functions
+	
+	Pure component : it renders and get the data that didn't used
+ 
+
+-------------------------------------------------------------------
+React components
+-----------------
+
+What it is ? 
+-> everythig will be braked in components in react
+-> reuse funcationalities and codes
+-> specific part of code can re usable & easy to render
+
+Types of it :
+-> Functional Component
+    - Less Powerfull
+-> Class Component
+    - More Powerfull
+
+
+Create Component : 
+
+-> create component directory or make file in src folder.
+    Home.js
+-> Import React : 
+
+    import React from 'react'
+
+    class Home extends React.Component{
+        render()
+        {
+            return(
+                    <div>
+                    // Write Code here to render.
+                    </div>
+            )
+        }
+    }
+
+    export default Home;
+ 
+-> Let's import to our main file which use to render.
+-> in App.js
+
+    import Home From ./Home.js;
+
+    function App(){
+        return(
+            <div>
+                //Use Component name tag that used to import name.
+                <Home />
+            </div>
+        )
+    }
+
+
+
+
+
+-------------------------------------------------------------------
+React Lifecycle
+----------------
+
+-> Transpiler
+    -A transpiler (also called source-to-source compiler or a 
+        transcompiler) is a program that translates a source 
+        code from a language to another at the same level of 
+        abstraction (which makes it different from a compiler 
+        whose output is lower level than its input).
+
+    -it will convert code in the language that browser understand.
+
+
+
+-> Default Component App.js
+
+Mounting - Load / Render
+Updating -  
+UnMounting - 
+
+=================================================
+React Dependencies : 
+--------------------
+
+React Router Dom
+React Helmet 

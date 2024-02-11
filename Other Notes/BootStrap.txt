@@ -1,0 +1,16 @@
+---------------------------------------------------------------------------------
+Bootstrap 5.3
+-------------
+
+- it's a framework
+- https://getbootstrap.com/
+- Bootstrap makes responsive web design a reality. It makes it possible for a web page or app to detect the visitor's screen size and orientation and automatically adapt the display accordingly.
+- Provides starter template ( Ready code with HTML & CSS - Responsive )
+- Styles are getting from main bootsraps file.
+- starter template includes css and scripting files with link.
+- bootstrap made from components, you can just copy paste from bootstrap components and paste it , it works 
+- Components like : alerts, nav bars,spans, buttons , footers,cards,
+- breadcrum - use to show the navigation of current page. /home/products/electronic
+
+- Bootstrap is a popular front-end framework for web development.
+

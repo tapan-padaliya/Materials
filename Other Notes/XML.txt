@@ -1,0 +1,11 @@
+-XHTML  - Extensible Hyper Text Markup Language
+
+
+	- It is extended from XML and HTML.
+	- Extension .xhtml, .xml
+	- Example : <DataNode=”somedata”>.
+	- Doctype need to define for this.<?xml version="1.0" encoding="UTF-8"?>
+	- in xml you can create custom tag to store data 
+	- used in data sercularation
+	- XML was designed to store and transport data.
+	- XML was designed to be both human- and machine-readable.

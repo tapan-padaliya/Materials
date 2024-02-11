@@ -1,0 +1,118 @@
+--------------------------------------------------------------
+Node js
+-------
+-> Framework From Javascript
+-> Runs at Server Side
+-> Node.js is an open source server environment
+-> Node can perform any kind of actions on server 
+    it can be add, delete, modify, upload, read etc.
+-> it's a run time environment
+-> HTTP Module makes different from other server side 
+    languages and framework like .net, PHP, Django-Phython.
+
+
+
+
+
+--------------------------------------------------------------
+NPM & NPX ( Node Package Execute )
+----------
+
+NPM - Utilities , Packages, Dependencies, controllers
+
+
+-Node.js & NPM required to use React (NPM, NPX, NODE)
+
+-NPX is counter part of NPM , NPM used to install and manage Packages but NPX use to run a one time.
+-NPX is used to execute JavaScript packages downloaded this way
+-Create React App Utility by NPX. (create-react-app)
+
+-npm start - start server
+-npm run build - Bundles the app to work with producion mode
+
+-Nodemodules are the packages and utilities that we have installed with npm-npx.
+-Package.json constraints the packages, scripts, dependencies, version and project details.
+-Package-lock.json constraints the version lock that the build time versions used 
+
+-Nodemodules are the packages and utilities that we have installed with npm-npx.
+-Package.json constraints the packages, scripts, dependencies, version and project details.
+-Package-lock.json constraints the version lock that the build time versions used 
+
+
+
+--------------------------------------------------------------
+Installation
+-------------
+
+-> You can install through Setup or CLI Things Described at 
+    https://nodejs.org/en/download/
+
+-> While Setuping , it can install necessary Files & modules
+    Like, NPM (Node Package Manager) & NPX.
+
+    -> NPM & NPX Allowes you to use World wide packages
+        & Libraries to install them in your system and setup.
+
+    https://www.npmjs.com/
+
+
+
+
+
+--------------------------------------------------------------
+Commands
+--------
+
+-> Setup / Create New Backend Or Server
+    >npm init
+    >yarn init
+        (it will as several question to setup project)
+
+-> Start Server Or Run server once (main file)
+    >node index.js
+        (it can run server using node console)
+
+
+
+
+--------------------------------------------------------------
+Packages
+--------
+
+-> nodemon
+
+        -> Install nodemon 
+            >npm i nodemon
+        https://www.npmjs.com/package/nodemon
+        ->nodemon is a tool that helps develop Node.js based applications by automatically 
+            restarting the node application when file changes in the directory are detected.
+
+        -> To Run server automatically
+            >nodemon index.js
+
+
+
+--------------------------------------------------------------
+Basic codes
+------------
+
+    var http = require('http');
+
+    http.createServer(function (req, res) {
+        res.writeHead(200, {'Content-Type': 'text/html'});
+        res.end('Server Running on Port 8080 !');
+    }).listen(8080);
+
+-> Render on
+    http://localhost:8080/
+
+
+
+
+
+
+
+
+
+
+

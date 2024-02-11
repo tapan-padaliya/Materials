@@ -1,0 +1,84 @@
+===================================================================
+Frontend Topics : 
+===================================================================
+HTML CSS : 
+==========
+	semantic elements : manners to write tags
+	CSS Selectors :  
+	CSS Preprocessors:
+	CSS Specificity : 
+	Normalizing CSS : 
+	CSS Architecture :
+	BEM : 
+	Floats :
+ 	Flexbox & CSS Grid : 
+	SVGs : PNG vs SVG better ?
+	Media Queries : 	
+	CSS Display :
+	Property : 
+	CSS Frameworkds : Bootstrap
+
+Javascript : 
+============
+	'this' property
+	datatypes of js : 7 types : premitive non premitive
+	Null vs undefine
+	IIFE Closure
+	inheritance
+	prototypal
+	apply vs call
+	hoisting
+	callback and promises
+	async await
+	invoke functions
+	closures
+	== vs ===
+	how object propery works ?
+	mutable properties
+	Cash URL
+	
+	High - order function
+	low order function	
+	ES6
+	React hooks
+	lazy loading 
+	order component
+
+DSA : 
+=====
+	Algorithms
+	linkedlist
+	hashtables
+	stacks
+	queues
+	trees
+	graphs
+	arrays
+	bubble sort
+	merge sort
+	binart search 
+	selection sort
+	quick sort
+	insertion sort
+
+	
+Frontend Topics : 
+=================
+	performance 
+	REST API
+	APIs
+	E2E Testing
+	Black Box Testing
+	Snap shot testing
+	Unit testing
+	Web Accessiblities
+	Cors
+	Browser APIs
+	HTTP / HTTPS	
+	Accessablity : web user accessablity
+	Search Engine Otmiziation 
+	Task Runner
+	Web Pack
+	GitHub
+
+

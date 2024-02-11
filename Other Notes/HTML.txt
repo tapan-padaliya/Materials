@@ -1,0 +1,186 @@
+===================================================================
+HTML - Hyper Text Markup Language
+===================================================================
+
+
+
+<input type='file'> to get upload file
+-Scripting Language
+-Use to create Structure of Web page
+-HTML Elements Tells Browser to Display Content
+-HTML Use to make websites user friendly and responsive
+-File Extension .html & .htm
+
+-URLs can only be sent over the Internet using the ASCII character-set. If a URL contains characters outside the ASCII set, the URL has to be converted.
+-Current Version HTML5
+-<!DOCTYPE html> Defines that the file is HTML file and the version is HTML 5. 
+	-without this doctype, the browser will not be able to identify that it is an HTML document and HTML 5 tags do not function properly..
+
+-it's the standard text formatting language used for creating and displaying pages on the internet
+-HTML Tags-> Used to Place Elements in Proper Formate.
+-HTML Tags constrains the symbols < & > and Closing with </ & >
+-Html Tags dont need to closed always.
+-HTML Attributes : it writes in tag and it use to change the way tag behaves or displayed.
+-Attribute Example : <img src="">, Here src="" is attribute.
+-<Marquee> scrolling text on web page - moving text right to left - you can scroll any content through marquee tag(image , text)
+-Seprate a section of Text - <br> for saprate line & <p> for paragraph & <blockquote> for define large quoted section the tag used.
+-Type of List in HTML
+	- Ordered List - <ol> - For Number Format
+	- Unordered List - <ul> - For Bulleted Format
+	-  List - <dl>,<dt>,<dd> - For Dictionary Formate.
+
+-tool tip : use title attribute in HTML tag to show the dtitle on hover of perticular tag
+-Download : use download attribute to get use of download
+
+-Formatting Tags in HTML : 
+	<b> - Bold text
+	<strong> - Important text
+	<i> - Italic text
+	<em> - Emphasized text
+	<mark> - Marked text
+	<small> - Smaller text
+	<del> - Deleted text
+	<ins> - Inserted text
+	<sub> - Subscript text
+	<sup> - Superscript text
+- The <strong> element is for content that is of greater importance, while the <b> element is used to draw attention to text without indicating that it's more important.
+- The main difference between these two tag is that the <em> tag semantically emphasizes on the important word or section of words while <i> tag is just offset text conventionally styled in italic to show alternative mood or voice. Below is the code to show this difference between the two : Example-1 : HTML.04-Dec-2020
+
+-HTML 5 introduces several input types like Date, DateTime-local, time, week, month, email, tel, URL, search, range, color and number. To improve the user experience and to make the forms more interactive. However, if a browser failed to recognize these new input types, it will treat them like a normal text box
+
+-Align List Elements using Indents - text-indent: 100px; - for make it bold and more size.
+-Table Tags in HTML
+	-For use to create table & Data in Tabular Format.
+	<table> for define table
+	<tr> for define table row
+	<th> for define header cell in table
+	<td> for define cell data
+	<caption> for make a name of table and write it above.
+	<colgroup> for specify group of column properties.
+	<tbody> for group the body content in table.
+	<thead> for group the head content in table.
+	<tfooter> for group the footer content in a table.
+
+-colspan - merge columns
+-rowspan - merge rows
+
+-Cellpadding basically defines the space present between a table cell’s border and the content present in it.	
+-Cellspacing basically defines the space present between individual adjacent cells.
+
+-Table Row(landscape[- - - -]) & Column(portrate[ | | | ])
+-Comment in HTMl -> comment using <!-- This is Comment -->
+	-The comment tag is used to insert comments in the source code. 
+-UTF-8 Mathematical Operators use to define 
+-Copyright Symbol - using &copy; 
+-Euro Symbol - using &euro;
+-White Space - Html ignores white spaces
+-Create Link -anchor Tag - <a href="" >
+-Hyper Link - same as anchor tag
+-Hyper link colors
+	Unvisited link: underlined and blue
+	Visited link: underlined and purple
+	Active link: underlined and red
+-Image Map - helps linking multiple hover links with help of image parts,
+	<img src= > show image
+		<map name="workmap">
+			<area shape="circle" coords="34,44,270,350" alt="Computer" href="link.htm">
+		</map>
+	-you can use multiple locations to link it and go users through a image.
+- Semantic HTML tags
+	-A semantic element clearly describes its meaning to both the browser and the developer. Examples of 
+    non-semantic elements: <div> and 
+	<span> - Tells nothing about its content. Examples of semantic elements: <form> , <table> , and <article> - Clearly defines its content.
+	<section>
+	<article>
+- Element Tags in HMTL
+	<h1>to<h6>
+	<p>for paragraph
+	<br> break line
+	<hr> horizontal line
+-SVG    -Scalable Vector Graphics
+	-Markup language
+	-use to create graphics using tag, it can be symbol or logo 
+	-svg behaviours are defined in XML
+- if there is no text between html tags then there is no output	
+-Nested Web Page - Web page in Web page
+	<iframe src="" height="" width="" ></iframe>
+-<button><button> this is button
+-<h1> to <h6> Heading Tags
+-H1 is biggest & H6 is smallest
+-<img src=""/> use to insert image in HTML webpage.
+-alt attribute shows alternative text warnings to show original src is not working.
+-Add Normal Style
+	add attribute in HTML tag like
+	<h1 style="color:red">Hello</h1>
+-<div> tag defines a division or a section in an HTML document.
+-<span vs div> : The <span> tag is much like the <div> element, but <div> is a block-level element and <span> is an
+ inline element.
+-<span> use to create inline container used to mark up a part of a text.
+	<p>My mother has <span style="color:blue">blue</span> eyes.</p>
+
+-HTML Tag consists of two components: the first is the content, and the second is the tag. Together, they help display pages with the required information.
+-HTML Components : head, body, comment, title, and many more tags that use to define html document for web page.
+-HTML Tags : it use to define the format that how browser will display it differently 
+-HTML Elements : Whatever written within a HTML tag are HTML elements
+
+-Block level elements : Block elements always start from a new line. <div>, <img>, <section>, <form>, <nav>
+-Inline Elements : Inline elements never start from a new line.<span>,<br>
+
+-block:A block-level element is drawn as a block that stretches to fill the full width available to it i.e, the width of its container and will always start on a new line.
+	Elements that are block-level by default: <div>, <img>, <section>, <form>, <nav>.
+-Inline : Inline elements are drawn where they are defined and only take up space that is absolutely needed. 
+The easiest way to understand how they work is to look at how text flows on a page.
+	Examples of elements that are inline by default: <span>, <b>, <strong>, <a>, <input>.
+
+-<meter> tag and <progress> : 
+	<progress> tag should be used when we want to show the completion progress of a task, whereas if we just want a scalar m
+	easurement within a known range or fraction value. Also, we can specify multiple extra attributes 
+	for <meter> tags like ‘form’, ‘low’, ‘high’, ‘min’, etc.
+
+-Audio : There are three supported audio formats in HTML: MP3, WAV, and OGG.
+
+HTML 4 Tags that not available in HMTL5
+<acronym>	Defines an acronym
+<applet>	Defines an applet
+<basefont>	Defines an base font for the page.
+<big>		Defines big text
+<center>	Defines centered text
+<dir>		Defines a directory list
+<font>		Defines text font, size, and color
+<frame>		Defines a frame
+<frameset>	Defines a set of frames
+<isindex>	Defines a single-line input field
+<noframes>	Defines a noframe section
+<s>		Defines strikethrough text
+<strike>	Defines strikethrough text
+<tt>		Defines teletype text
+<u>		Defines underlined text
+
+- Void Elements 
+	- No Need to End these Tags
+	- area , base , br , col , command , embed , hr , img , input , keygen , link , meta , param , source , track , wbr
+
+-id vs class
+	- these are attributes.
+	- use to define for further use with Scripting and Styling.
+	- id can be unique and class can be same for many tags
+
+-HTML Layout Structure
+	<header>: It is used to define a header for a document or a section.
+	<nav>: It is used to define a container for navigation links
+	<section>: It is used to define a section in a document
+	<article>: It is used to define an independent, self-contained article
+	<aside>: It is used to define content aside from the content (like a sidebar)
+	<footer>: It is used to define a footer for a document or a section
+
+Meta Tags- 
+-The <meta> tag defines metadata about an HTML document. Metadata is data (information) about data. 
+<meta> tags always go inside the <head> element.
+-Meta elements are tags used in HTML and XHTML documents to provide structured metadata about a Web page. 
+They are part of a web page's head section. Multiple Meta elements with different attributes can be used on the same page.
+
+What is VH/VW (viewport height/ viewport width) in CSS?
+It’s a CSS unit used to measure the height and width in percentage with respect to the viewport. 
+It is used mainly in responsive design techniques. The measure VH is equal to 1/100 of the height of the viewport. 
+If the height of the browser is 1000px, 1vh is equal to 10px. Similarly, if the width is 1000px, then 1 vw is equal to 10px
+

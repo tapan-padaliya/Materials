@@ -1,0 +1,92 @@
+--------------------------------------------------------------------------------------------------------
+GIT HUB
+-------
+
+-> Facilities
+
+    -> Desktop GUI & Easy to use
+        https://desktop.github.com/  
+
+    -> CLI & Professional Use
+        https://git-scm.com/downloads
+        
+    -> Web Application
+        https://github.com/
+
+
+-> git config name
+    git config --global username Tapan
+    
+-> email config
+    git config --global useremail tapanpadaliya02@gmail.com
+
+-> Initialize a local Git repository
+    git init
+
+-> check file status
+    git status
+
+-> do file commit
+    git commit
+
+-> to create file
+    touch command
+    e.x touch about.html
+
+-> add all file in one time(both Example works to add all)
+    git add -A 
+    git add .
+
+-> undo data
+    git checkout
+
+-> undo multiple files 
+    git checkout -f command to use multiple file to commit in past file
+
+-> it will showup the log and record that what we have done
+    git log 
+
+-> show changes on commit
+    git diff
+
+-> compare the changes of commit
+    git diff --staged
+
+-> direct commit
+    git commit -a -m("commit all file")
+
+-> remove file from listing
+    git rm
+
+-> remove from staging area (virtual commiting space)
+    git rm --cached
+
+-> Check status before commit that shows files have linked with green color and red with not attached.
+    git status -s
+
+-> touch git ignore to create ignore file
+
+-> create a branch
+    git branch (name)
+
+-> merge branch 
+    git merge <branch.name>
+
+-> switch branch while working on another branch
+    git checkout -b (name)
+
+-> data push karva
+    git remote add origin https://github.com/TapanPadaliya/git.git
+    git branch -M main
+    git push -u origin main
+
+
+-> create a new repository
+    echo "# git" >> README.md
+    git init
+    git add README.md
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin https://github.com/TapanPadaliya/git.git
+    git push -u origin main
+

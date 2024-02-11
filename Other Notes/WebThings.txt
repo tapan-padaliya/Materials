@@ -1,0 +1,93 @@
+------------------------------------🧬-------------------------------
+URL Structure
+-------------
+-> https:         www        google           .com           /about
+-> protocol    sub-domain  domain-name    Site-extension   page/path 
+
+
+
+
+-----------------------------------🟫--------------------------------
+SEO - Search Engine Optimization
+--------------------------------
+-Meta title 
+	create your title with proper name with web name and page name ( 12Pro - IPhone)
+-Meta description
+	<meta name="description" content="the text you are placing here is used as a tag for SEO">
+-Meta robots
+	<meta name=”robots” content="index, follow"> 
+	-an HTML snippet that tells search engine robots what they can and cannot do on a certain page
+-Meta refresh redirect
+	-Using meta refresh to create an instant client-side redirect
+	<meta http-equiv="refresh" content="5;url="https://site.com/">
+-Meta charset
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	-UTF-8 - Character encoding for Unicode;
+	-ISO-8859-1 - Character encoding for the Latin alphabet.
+-Meta viewport
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	- Shows SEO to the site is compitable with different devices
+
+
+-----------------------------------1️⃣--------------------------------
+Web 1.0
+-------
+
+-> 1985 to 2005
+-> Type of Web : Visual or text-based Web
+-> first stage of the World Wide Web evolution
+-> Basic Web Pages - Static Web Pages 
+-> Uses Pure HTML
+-> website is only readable.
+-> Not Supports Two Way Communication.
+
+
+-----------------------------------2️⃣--------------------------------
+Web 2.0
+-------
+
+-> 1999 to 2012
+-> Introduction to Web Applications with Different Functionalities.
+-> Type of web : Interactive, Responsive, and, Programmable Web
+-> highlight user-generated content
+-> Supports Multiple Scripting Languages.
+-> website is readable as well user can create it.
+-> introduced different functionalities with APIs and Tools due to supports libraries.
+-> Good Introduction to Two Way Communication
+-> Different Device Accessablity.
+-> Success to High Speed Communication and data transfer.
+-> World Wide Connectivity through different Protocols and 
+
+
+
+-----------------------------------3️⃣--------------------------------
+Web 3.0
+-------
+
+-> 2006 and ongoing
+-> Decentralized Web-based functionalities and Applications.
+-> Linked-Data Web through a shared data model
+-> website is readable, creatable and users own control on it.
+-> Symentic Web / Distributed System.
+-> one to many & many to many Communication model with encryption & Securing Data
+-> New Technologies introduced like AR - VR - MetaVerse.
+-> Permissionless Blockchanins 
+-> AI & ML introduced at the level of internet.
+
+
+------------------------------------📁-------------------------------
+APIs- Application programming interface
+---------------------------------------
+
+-> Unsplash random image getter API
+	>https://source.unsplash.com/random/?nature/
+
+-> APIs are mechanisms that enable two software components to communicate
+ 	with each other using a set of definitions and protocols. 
+-> For example, the weather bureau's software system contains daily weather data. 
+-> The weather app on your phone “talks” to this system via APIs and shows you daily weather updates on your phone.
+
+
+
+
+-------------------------------------------------------------------

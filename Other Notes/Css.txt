@@ -1,0 +1,391 @@
+---------------------------------------------------------------------------------
+CSS - Cascading Style Sheets
+----------------------------
+
+
+-Uses to Style Web Page with different Properties.
+-Current Version is CSS3
+-It can control the layout of multiple web pages all at once
+-You should use External Css to organized code & Clean code
+
+Types of CSS : 
+	Default/Browser/User-agent Stylesheet: Styles applied by default for web page.
+		h1 tag constraints size , the browser set it size default by h1
+	User Stylesheet : overwrite , write more code on h1 tag
+	Author Stylesheet : write own styles over html tags
+
+CSS Preprocessors : 
+	sass scss Less and stylus
+	its a tool used to extend the basic functionality of default
+	vanila css.
+	it helps us to use complex logical syntex like:
+
+	Sass: sass stands for "syntically awsome styles sheets" sass can
+	be written in two different syntexes using sass or scss	
+
+	used for code nesting , commands for animation based on conditions
+
+	SASS is based on indentaton & SCSS is not
+	SASS use .sass extension while SCSS use .scss extension.
+	SASS Doesn't use curly brackets and semicolons.
+	
+	SASS : 
+	
+		$border-color:red
+		$color:blue
+		
+		.container
+		{
+			border-color: $border-color
+			color: $color
+		}
+	
+	SCSS : 
+		$border-color:red;
+		$color:blue;
+		
+		.container
+		{
+			border-color: $border-color;
+			color: $color;
+		}
+
+	LESS : 
+		- Leaner stylesheets, less is easy to add to any javascript 
+		  project by using Npm.js
+		- Extension is .less
+		- use @ to define variable
+
+		@border-color: red;
+		@color:blue;
+		
+		.container
+		{
+			border-color: @border-color;
+			color: @color;
+		}
+		
+	Stylus :
+		- Stylus offers a great deal of flexiblity in writing syntax,
+		  supports native CSS and well as allows omission of brackets , colons and semicolons
+
+		border-color = red;
+		color = blue;
+		
+		.container
+		{
+			border-color: border-color;
+			color: color;
+		}
+
+
+possition attribute : 
+	relative,fixed,static-default,absolute
+
+margin : difference between 2 content
+padding : different between content & Border
+
+Flex Box : 
+	2 attribute : 
+		justify item
+		align item ( vertically )
+
+
+-https://www.w3schools.com/cssref/playdemo.php?filename=playcss_top
+
+-3 Styles to add CSS in Web Page
+	-Inline 
+		<h1 style="color:red">Hello</h1>
+	-External Stylesheet (add this in head tag)
+		<link rel="stylesheet" href= "mystyle.css">
+	-Internal Stylesheet (add style tag in head tag)
+		<style>.h1{color:red;}</style>	
+
+
+CSS Frameworks : CSS frameworks are libraries that make web page styling easier.
+	some of them are foundation, gootstrap, gumby, ukit, semantic UI etc.
+
+	-write less code and create greatt ui styles
+
+
+Separation of content from presentation - CSS provides a way to present the same content in multiple presentation formats in mobile or desktop or laptop.
+Easy to maintain - CSS, built effectively can be used to change the look and feel complete by making small changes. To make a global change, simply change the style, and all elements in all the web pages will be updated automatically.
+Bandwidth - Used effectively, the style sheets will be stored in the browser cache and they can be used on multiple pages, without having to download again.
+
+Universal Selector : ( A Universal Selector is a selector that matches any element type's name instead of selecting elements of a perticular type )
+	Class Selector : use HTML elements for styling. not unique. use dot . to start name
+	ID Selector : do not use dot , uses nothing in start or use #
+	
+Ruleset : it used for identification of selectors , which can be attached with other selectors.
+	1. Declaration Block : contains one or more semicolon-separated declarations.
+	2. Sector : indicates the HMTL element need to be styled.
+
+Elements of the CSS Box Model:
+	The CSS Box Model defines the layout and design of CSS elements.
+	the elements are contents (like text and images) ,
+			 padding (area around content),
+			 border(padding , margin)etc.
+
+CSS3 
+	Both CSS and HTML where put into single file
+	There were no new ways to write the CSS rules.
+	there is backward compatibility maintained with CSS3.
+Vs
+
+CSS2
+	CSS Splits up different section of code into modules
+	there are new ways you can write css rules.	
+	there is no backward compatiblity maintained with CSS2
+	
+
+RGB Stream : 
+	RGB represents colors in css, the three streams are ramely red green and blue.
+	the intensity of color is represented using numbers 0 to 256.
+
+Purpose of Developing CSS:
+	- Give bisual apperance
+	- better feel and look to users
+	- beautification and organizaion in sense of desing web page & Elements.
+
+
+Z-index:
+	it used to specify the stack order of element that overlap each other.
+	its default value is zero and can take both negative and positive value.
+	a heigher z-index values is stacked and above the lower index elements ,
+	it takes the following values-auto, number , intial and inherit.
+
+CSS Sprites : 
+	An image sprite is a collection of images put into a single image.
+	while using multiple image , insted ofthat use all image in one image and 
+	use image with perticular location of one image
+	background: url('img_navsprites.gif') -91px 0;
+
+Benefits of CSS Sprites : 
+	with CSS Sprites , loading multiple images is not an issue
+	blinking is not seen
+	advanced downloading of assets does not take place until needed.
+
+target multiple targets : 
+	multiple elements can be targeted by separating with a comma:
+	h2,h3{color:red;}
+
+Media types allowed by CSS: ( part of responsive ) 
+	speech
+	audio
+	visuals
+	interactive media, grip media or bitmap
+
+CSS to control image repetition :
+	The background-repeat:none; property used to control the image
+
+Have you played around with the new CSS Flexbox or Grid specs? Yes. Flexbox is mainly meant for 1-dimensional layouts while Grid is meant for 2-dimensional layouts. Flexbox solves many common problems in CSS, such as vertical centering of elements within a container, sticky footer, etc.
+
+
+What is DOM (Document Object Model) and how is it linked to CSS?
+The Document Object Model (DOM) is a cross-platform and language-independent application programming interface that treats an HTML, XHTML, or XML document as a tree structure wherein each node is an object representing a part of the document.
+
+With the Document Object Model, programmers can create and build documents, navigate their structure, and add, modify, or delete elements and content. The DOM specifies interfaces which may be used to manage XML or HTML documents.
+
+When a browser displays a document, it must combine the document's content with its style information. The browser converts HTML and CSS into the DOM (Document Object Model). The DOM represents the document in the computer's memory. It combines the document's content with its style.
+
+
+image scroll controlling : 
+	the background-attackment:fixed;
+	image is not gonna be scroll.
+
+font-related CSS attributes.
+	font-style, variant, weight , family , size.
+
+contextual selectors:
+	in CSS , it allowes developers to specity styles of different parts of the document.
+	styles can be assigned directly to specific HMTL tags or create independent classes and assign tags to them
+
+Responsive Web Design: 
+	it is a web page creation approach that uses flexible image , flexible layout,and CSS media queries.
+	the design is compitable with different screens and devices.
+
+CSS nomenclature : 	
+	it's a technique to naming convention , 
+	define some ethics and rules 
+	use - and _ with class values
+	to avoide confusion,
+
+Translate : is a CSS transform value. on changing opacity or transform , browser reflow and repaint is not triggered.
+
+Transform requires the browser to create a GPU layer for elements but using the GPU changes absolutes positioning properties.
+Translate() is more efficient and results in shorter paint times.
+
+different ways to position some aspects in CSS
+	Positions:
+		Fixed,Static,Absolute,Relative,Sticky.
+
+Midins : Used in saas
+
+CSS working under the hood 
+	1. conversion of HTML and CSS into Document Object Model
+	2. MOD displays contents of browser
+
+CSS Float Property :
+	text wrapping, positions.
+
+pseudo-elements:
+	used for small block level changes
+		font properties
+		color properties
+		background properties
+		word-spacing
+		letter-spacing
+		text-decoration
+		vertical-align		
+		text-transform
+		line-height
+		clear
+	
+
+Logical tags and physical tags:
+	
+Media Type : 
+		
+	all	Used for all media type devices
+	print	Used for printers - @media print{h2{color:red;}}
+	screen	Used for computer screens, tablets, smart-phones etc.
+	speech	Used for screenreaders that "reads" the page out loud
+
+about CSS3 :
+	CSS3 is divided into modules and it supported by almost every browser.
+	Many graphics-related characteristics are introduced in CSS3 like 
+		box-shadow, Border-radius, and Flexbox.
+
+CSS image Script :
+
+CSS specificity : rank or score describe style declaration
+
+Properties of Flex-box : 
+	flex-direction,wrap, flow, content, align-item.
+
+
+CSS Box mode: 
+	the CSS box model is box binding HTML element that includes
+	padding , margin , and the actual content.
+
+Positions in CSS :
+	relative
+	static - default
+	absolute
+	fixed
+
+absolute and relative position.
+	
+
+
+
+
+
+
+
+5. What are the different types of Selectors in CSS?
+A CSS selector is the part of a CSS ruleset that actually selects the content you want to style. Different types of selectors are listed below.
+
+Universal Selector: The universal selector works like a wildcard character, selecting all elements on a page. In the given example, the provided styles will get applied to all the elements on the page.
+
+* {
+  color: "green";
+  font-size: 20px;
+  line-height: 25px;
+}
+Element Type Selector: This selector matches one or more HTML elements of the same name. In the given example, the provided styles will get applied to all the ul elements on the page.
+
+ul {
+  line-style: none;
+  border: solid 1px #ccc;
+}
+ID Selector: This selector matches any HTML element that has an ID attribute with the same value as that of the selector. In the given example, the provided styles will get applied to all the elements having ID as a container on the page.
+
+#container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+<div id="container"></div>
+Class Selector: The class selector also matches all elements on the page that have their class attribute set to the same value as the class.  In the given example, the provided styles will get applied to all the elements having ID as the box on the page.
+
+.box {
+  padding: 10px;
+  margin: 10px;
+  width: 240px;
+}
+
+<div class="box"></div>
+Descendant Combinator: The descendant selector or, more accurately, the descendant combinator lets you combine two or more selectors so you can be more specific in your selection method.
+
+#container .box {
+	float: left;
+	padding-bottom: 15px;
+} 
+
+<div id="container">
+	<div class="box"></div>
+	
+	<div class="box-2"></div>
+</div>
+
+<div class=”box”></div>
+This declaration block will apply to all elements that have a class of box that is inside an element with an ID of the container. It’s worth noting that the .box element doesn’t have to be an immediate child: there could be another element wrapping .box, and the styles would still apply.
+
+Child Combinator: A selector that uses the child combinator is similar to a selector that uses a descendant combinator, except it only targets immediate child elements.
+
+#container> .box {
+	float: left;
+	padding-bottom: 15px;
+}
+
+<div id="container">
+	<div class="box"></div>
+	
+	<div>
+		<div class="box"></div>
+	</div>
+</div>
+The selector will match all elements that have a class of box and that are immediate children of the #container element. That means, unlike the descendant combinator, there can’t be another element wrapping .box it has to be a direct child element.
+
+General Sibling Combinator: A selector that uses a general sibling combinator to match elements based on sibling relationships. The selected elements are beside each other in the HTML.
+
+h2 ~ p {
+	margin-bottom: 20px;
+}
+
+<h2>Title</h2>
+<p>Paragraph example.</p>
+<p>Paragraph example.</p>
+<p>Paragraph example.</p>
+<div class=”box”>
+	<p>Paragraph example.</p>
+</div>
+In this example, all paragraph elements (<p>) will be styled with the specified rules, but only if they are siblings of <h2> elements. There could be other elements in between the <h2> and <p>, and the styles would still apply.
+
+Adjacent Sibling Combinator: A selector that uses the adjacent sibling combinator uses the plus symbol (+), and is almost the same as the general sibling selector. The difference is that the targeted element must be an immediate sibling, not just a general sibling.
+
+p + p {
+	text-indent: 1.Sem;
+	margin-bottom: 0;
+}
+
+<h2>Title</h2>
+<p>Paragraph example.</p>
+<p>Paragraph example.</p>
+<p>Paragraph example.</p>
+
+<div class=”box”>
+	<p>Paragraph example.</p>
+	<p>Paragraph example.</p>
+</div>
+The above example will apply the specified styles only to paragraph elements that immediately follow other paragraph elements. This means the first paragraph element on a page would not receive these styles. Also, if another element appeared between two paragraphs, the second paragraph of the two wouldn’t have the styles applied.
+
+Attribute Selector: The attribute selector targets elements based on the presence and/or value of HTML attributes, and is declared using square brackets.
+
+input [type=”text”] {
+	background-color: #444;
+	width: 200px;
+}
+
+<input type="text">

@@ -1,0 +1,64 @@
+---------------------------------------------------------------------------------
+JS- JavaScript
+--------------
+
+-add script tag in html document
+	<script>
+		document.getElementById("demo").innerHTML = "My First JavaScript";
+	</script>
+-add external script file
+	<script src="myScript.js"></script>
+
+Variable : Use to store data
+	var use to declare variable 
+	eg. : var firstname = "tapan";
+	      document.write("My first anme is ");
+	      document.write(firstname);
+
+3 Ways to declare Variable
+	-var , declare , re declare, re assign
+	-let , declare , assign & re assign
+	-const, declare, can not re assign and re declare.
+
+2 Data types: 	
+	Premitive : string, number , boolean, null, undefined
+	NonPremitive : Object Array
+
+Operators : 
+	Operator is a symbol that is used to perform operations according to user requriment.
+
+	5 Types : 
+		Arithmetic Operator : + - / * ++ --
+		Assignment Operator : = += -+ /=
+		Comparision Operator : < > <= ==
+		Logical Operator : && || !
+		Conditional Operator : ? : 
+
+if(condition1){}else if(conditions){}else{}
+
+
+-----------------------------------------------------------
+Array in JS
+-----------
+
+const arr = [12,3,5,8,11,87]
+
+//Find the smallest and largest elem in array 
+
+const getSmallArrayElem = (arr) => {
+
+	let smallNum = Number.POSITIVE_INFINITY;
+	for(const num of arr){
+		if(num < smallNum){
+			smallNum = num;
+		}
+	}
+	return smallNum;
+}
+getSmallArrayElem(arr);
+
+
+-----------------------------------------------------------
+async or sync
+JavaScript Debugging
+ES5 and ES6
